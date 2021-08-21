@@ -57,7 +57,7 @@ document.querySelector("#igual").addEventListener('click', function(){
     }
     if (op == 'somar'){ 
       let resultado = parseFloat (valor1) + parseFloat (valor2);
-       display.value = valor1 + valor2;
+       display.value = resultado;
 
     }
     
