@@ -47,17 +47,20 @@ document.querySelector("#igual").addEventListener('click', function(){
     let valor2 = display.value;
 
     if (op == 'sub'){
-      display.value = valor1 - valor2;
+      let resultado = valor1 - valor2;
+      display.value = resultado.toFixed(2);
     }
     if(op =='mult'){
-       display.value = valor1 * valor2;
+       let resultado = valor1 * valor2;
+       display.value = resultado.toFixed(2);
     }
     if(op == 'divisao'){ 
-      display.value = valor1/valor2;
+      let resultado = valor1/valor2;
+      display.value = resultado.toFixed(2);
     }
     if (op == 'somar'){ 
       let resultado = parseFloat (valor1) + parseFloat (valor2);
-       display.value = resultado;
+      display.value = resultado.toFixed(2);
 
     }
     
